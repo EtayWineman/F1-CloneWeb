@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/36/49/17/364917a8bc4abdfe92f7bfa4cda8cf30.jpg);
+}
+.Head {
+    height: 50px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.Head2 {
+    height: 50px;
+    background: rgb(255, 0, 0);
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+    border-bottom: 2px black solid;
+}
+.Center {
+    position: fixed;
+    top: 100px;
+    left: 200px;
+    height: 700px;
+    width: 1170px;
+}   
+.leftbar{
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 100px;
+    bottom: 50px;
+}
+
+.rightbar{
+    width: 150px;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    bottom: 50px;
+}
+
+.Box {
+    height: 40px;
+    margin: 10px;
+}
+
+.Footer{
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.Facebook {
+    position: fixed;
+    right: 140px;
+    bottom: 0;
+}
+
+.Instagram {
+    position: fixed;
+    right: 95px;
+    bottom: 0;
+}
+
+.Twiter {
+    position: fixed;
+    right: 50px;
+    bottom: 0;
+}
+
+.Youtube {
+    position: fixed;
+    right: 3px;
+    bottom: 0;
+}
+
+h1 {
+    font-family: georgia;
+    color: white;
+}
+
+h2 {
+    font-family: georgia;
+    color: white;
+}
+
+.video1 {
+    position: fixed;
+    right: 0;
+    bottom: 46px;
+}
